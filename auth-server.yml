@@ -14,7 +14,7 @@ logging:
     org.springframework.security: DEBUG
     
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         #driverClassName: com.mysql.jdbc.Driver
