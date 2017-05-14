@@ -6,11 +6,12 @@ configuration:
   projectName: registry-server
 
 server:
-  port: 8761
+  #port: 8761
+  port: ${registryServerPort}
 
 security:
   user:
-    password: password
+    password: ${registryServerPassword}
 
 eureka:
   client:
