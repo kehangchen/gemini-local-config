@@ -5,7 +5,6 @@ spring:
     active:  docker
 
 server:
-  #port: 9080
   port: ${authserverPort}
   contextPath: /tr
 
@@ -17,14 +16,6 @@ com:
   traderocket:
     authserver:
       config:
-        #driverClassName: com.mysql.jdbc.Driver
-        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-        databaseDialect: org.hibernate.dialect.SQLServerDialect
-        url: "jdbc:sqlserver://localhost;databaseName=gemini_dev3"
-        port: 3306
-        databaseName: "/Import_mssql.sql"
-        userName: root
-        password: password
         clients: "{\"traderocket\":\"/login\",\"pemex\":\"/login_pemex\",\"hitachi\":\"/login_hitachi\"}"
         defaultLoginUrl: "/login"
         customers:
@@ -38,7 +29,6 @@ com:
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://user:password@localhost:8761/eureka/
       defaultZone: ${registryServerBaseUrl}/eureka/
         
 include:
@@ -79,7 +69,7 @@ com:
   traderocket:
     authserver:
       config:
-        password: password
+        #password: password
         
 ---
 
@@ -90,4 +80,4 @@ com:
   traderocket:
     authserver:
       config:
-        password: password
+        #password: password
