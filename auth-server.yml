@@ -76,7 +76,7 @@ spring:
   profiles: docker
 
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         password: password
@@ -87,7 +87,7 @@ spring:
   profiles: local
   
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         password: password
