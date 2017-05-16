@@ -21,7 +21,7 @@ security:
       userAuthorizationUri: ${authRootUrl}/tr/oauth/authorize
       clientId: ${oauthClientId}
       clientSecret: ${oauthClientSecret}
-      access-token-validity-seconds: 1800000
+      access-token-validity-seconds: 60000
       #added on 4/26/2017
       pre-established-redirect-uri: ${webPortalRootUrl}/traderocket/login
       registered-redirect-uri: ${authRootUrl}/tr/login
