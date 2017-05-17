@@ -18,13 +18,14 @@ com:
       config:
         clients: "{\"traderocket\":\"/login\",\"pemex\":\"/login_pemex\",\"hitachi\":\"/login_hitachi\"}"
         defaultLoginUrl: "/login"
+        defaultSuccessTargetUrl: ${defaultSuccessTargetUrl}
         customers:
           traderocket: login
           pemex: login_pemex
           default: login
         authentication:
           maxSessions: 0
-          tokenValidityPeriod: 60000
+          tokenValidityPeriod: 1800000
           supportedGrantTypes: authorization_code,password,client_credentials
 eureka:
   client:
