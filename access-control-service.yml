@@ -54,6 +54,7 @@ ldap:
   base: dc=example,dc=com
   userDn: uid=admin,ou=system
   userPassword: secret
+  rolePrefix: ROLE_
   password:
     length: 8
   
