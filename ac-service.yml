@@ -5,7 +5,7 @@ spring:
 configuration:
   projectName: ac-service
 server:
-  port: 9083
+  port: 9086
   contextPath: /tr/api/acservice
 
 logging:
