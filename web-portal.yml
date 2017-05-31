@@ -41,6 +41,9 @@ zuul:
     users:
       path: /users/**
       url: http://localhost:9086/tr/api/acservice/users
+    entities:
+      path: /entities/**
+      url: http://localhost:9086/tr/api/acservice/entities
     links:
       path: /links/**
       url: ${businessServiceBaseUrl}/tr/api/businessservice/links
