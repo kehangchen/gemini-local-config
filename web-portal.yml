@@ -53,6 +53,9 @@ zuul:
     programs:
       path: /programs/**
       url: ${noderedRootUrl}
+    roles:
+      path: /roles/**
+      url: http://localhost:9086/tr/api/acservice/roles
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
