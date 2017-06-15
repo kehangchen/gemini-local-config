@@ -38,6 +38,9 @@ zuul:
     resource:
       path: /resource/**
       url: ${businessServiceBaseUrl}/tr/api/businessservice/email
+    interestrate:
+      path: /interestrate/**
+      url: ${businessServiceBaseUrl}/tr/api/businessservice/interestrate
     users:
       path: /users/**
       url: http://localhost:9086/tr/api/acservice/users
