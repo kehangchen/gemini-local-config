@@ -7,6 +7,10 @@ configuration:
 server:
   port: 9086
   contextPath: /tr/api/acservice
+  
+mail:
+  aes:
+    key: need tobe change
 
 logging:
   level:
