@@ -17,6 +17,10 @@ mail:
     url: http://localhost:9086/tr/api/acservice/users/changePasswordConfirmation
   username: ${emailUsername}
   password: ${emailPwd}
+  auth: ${emailAuth}
+  starttls: ${emailStarttls}
+  host: ${emailHost}
+  port: ${emailPort}
 
 logging:
   level:
