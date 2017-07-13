@@ -43,10 +43,10 @@ zuul:
       url: ${businessServiceBaseUrl}/tr/api/businessservice/interestrate
     users:
       path: /users/**
-      url: http://localhost:9086/tr/api/acservice/users
+      url: ${acServiceBaseUrl}/tr/api/acservice/users
     entities:
       path: /entities/**
-      url: http://localhost:9086/tr/api/acservice/entities
+      url: ${acServiceBaseUrl}/tr/api/acservice/entities
     links:
       path: /links/**
       url: ${businessServiceBaseUrl}/tr/api/businessservice/links
@@ -58,7 +58,7 @@ zuul:
       url: ${noderedRootUrl}
     roles:
       path: /roles/**
-      url: http://localhost:9086/tr/api/acservice/roles
+      url: ${acServiceBaseUrl}/tr/api/acservice/roles
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
