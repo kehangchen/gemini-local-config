@@ -12,9 +12,9 @@ mail:
   aes:
     key: need tobe change
   verification:
-    url: http://localhost:9086/tr/api/acservice/users/confirmation
+    url: ${acServiceBaseUrl}/tr/api/acservice/users/confirmation
   changePassword:
-    url: http://localhost:9086/tr/api/acservice/users/changePasswordConfirmation
+    url: ${acServiceBaseUrl}/tr/api/acservice/users/changePasswordConfirmation
   username: ${emailUsername}
   password: ${emailPwd}
   auth: ${emailAuth}
