@@ -53,6 +53,9 @@ zuul:
     user:
       path: /user/**
       url: ${authRootUrl}/tr/user
+    confirmation:
+      path: /confirmation/**
+      url: ${authRootUrl}/tr/confirmation
     programs:
       path: /programs/**
       url: ${noderedRootUrl}
