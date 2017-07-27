@@ -28,6 +28,9 @@ com:
           tokenValidityPeriod: 28800
           supportedGrantTypes: authorization_code,password,client_credentials
           fields: userId,userEmail,userLastName,userFirstName,entityId,entityName
+          keyfile:${keyfile}
+          keyfilePassword: ${keyfilePassword}
+          keyPairName: ${keyPairName}
 eureka:
   client:
     serviceUrl:
