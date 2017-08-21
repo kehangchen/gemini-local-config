@@ -70,6 +70,7 @@ zuul:
       #url: http://localhost:9080/tr/oauth/authorize
     login:
       path: /login/**
+      sensitiveHeaders:
       url: ${authRootUrl}/tr/login
 
 eureka:
