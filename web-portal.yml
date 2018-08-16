@@ -13,6 +13,7 @@ server:
     timeout: 1800000
   webPortalRootUrl: ${webPortalRootUrl}
 
+
 security:
   user:
     password: none
